@@ -29,7 +29,32 @@ body {
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+
+.logo{
+  width: 6%;
+  padding: .6%;
+  justify-content: flex-start;
+}
+
+.appbar{
+  background-color: #f7d736;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.subtitle{
+  text-align: center;
+}*/
+
+
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -42,7 +67,7 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 
   background-color: #f7d736;
-
+  text-decoration-color: black;
   transition: background-color 0.3s;
 }
 
@@ -77,4 +102,137 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  border-width: 0;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.441);
+}
+
+.form-card-title,
+.autoresize {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black;
+  background-color: #f7d736;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #a1b300;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 200px;
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card-color-1{
+  background-color:#ead3a7 ;
+}
+.card-color-2{
+  background-color: #9de0f5 ;
+}
+.card-color-3{
+  background-color:#ef89ba ;
+}
+.card-color-4{
+  background-color:#fae890 ;
+}
+.card-color-5{
+  background-color:#abe9c1 ;
+}
+
+.card-rotation-1{
+  transform: rotate(1deg)
+}
+.card-rotation-2{
+  transform: rotate(2deg)
+}
+.card-rotation-3{
+  transform: rotate(3deg)
+}
+.card-rotation-4{
+  transform: rotate(4deg)
+}
+.card-rotation-5{
+  transform: rotate(-2deg)
+}
+.card-rotation-6{
+  transform: rotate(-1deg)
+}
+.card-rotation-7{
+  transform: rotate(-4deg)
+}
+.card-rotation-8{
+  transform: rotate(6deg)
+}
+.card-rotation-9{
+  transform: rotate(7deg)
+}
+.card-rotation-10{
+  transform: rotate(4deg)
+}
+
+
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  font-size: 14px;
+}
