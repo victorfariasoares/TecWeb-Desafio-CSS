@@ -175,14 +175,17 @@ body, html {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 9px;
   margin-top: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 190px;
   background-color: #fff;
   margin: 10px;
   padding: 15px;
